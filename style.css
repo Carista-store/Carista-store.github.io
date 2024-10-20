@@ -53,11 +53,10 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    transition: all 0.3s ease;
 }
 header-icons:hover {
-    opacity: 0.7;
-    transform: scale(1.05);
-    transition: all 0.3s ease;
+    filter: blur(2px);
 }
     .header-icons div {
         display: flex;
