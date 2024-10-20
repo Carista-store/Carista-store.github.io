@@ -15,9 +15,9 @@ body {
 /* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
 .header-top {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: space-between; 
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 /* Thanh tìm kiếm */
@@ -52,8 +52,9 @@ body {
    /* Định dạng vùng chứa các biểu tượng trong header */
 .header-icons {
     display: flex;
-    justify-content: space-between;
-    width: 300px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
 }
 
 /* Định dạng vùng chứa biểu tượng và chữ */
