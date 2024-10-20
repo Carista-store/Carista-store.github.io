@@ -90,7 +90,7 @@ body {
 
 /* Khi di chuột vào container của biểu tượng */
 .icon-container:hover .icon {
-    transform: translateX(-100px); 
+    transform: translateX(-100%); 
 }
 
 .icon-container:hover .text {
