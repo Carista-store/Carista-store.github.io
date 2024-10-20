@@ -54,7 +54,11 @@ body {
     align-items: center;
     gap: 20px;
 }
-
+header-icons:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
     .header-icons div {
         display: flex;
         align-items: center;
@@ -67,7 +71,7 @@ body {
         margin-right: 5px;
     }
 
-.login, .hotline, .cart {
+.login, .cart {
     cursor: pointer;
 }
 
@@ -77,7 +81,7 @@ body {
 
 /* Phần dưới với menu điều hướng */
 .header-nav {
-    background-color: #526707; 
+    background-color: #9ea762; 
     padding: 10px 0;
 }
 
@@ -103,7 +107,7 @@ body {
     }
 
         .header-nav a:hover {
-            background-color: #9ea762;
+            background-color: #526707;
             border-radius: 5px;
         }
 @media (max-width: 768px) {
@@ -123,8 +127,8 @@ body {
 }
 
 footer {
-    background-color: #526707;
-    color: #9ea762;
+    background-color: #9ea762;
+    color: #f1ece2;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
