@@ -49,51 +49,51 @@ body {
     }
 
 /* Phần biểu tượng chức năng */
-    /* Định dạng vùng chứa các biểu tượng trong header */
-    .header-icons {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 10px;
-        background-color: #b5c66c; 
-    }
+   /* Định dạng vùng chứa các biểu tượng trong header */
+.header-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #b5c66c; 
+}
 
-    /* Định dạng vùng chứa biểu tượng và chữ trượt ngang */
-    .icon-container {
-        position: relative;
-        display: flex;
-        align-items: center;
-        margin-right: 20px;
-    }
+/* Định dạng vùng chứa biểu tượng và chữ */
+.icon-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    overflow: hidden; 
+}
 
-    /* Định dạng các biểu tượng */
-    .icon {
-        width: 40px;
-        height: 40px;
-        transition: filter 0.3s ease, transform 0.3s ease;
-    }
+/* Định dạng các biểu tượng */
+.icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease; 
+}
 
-    /* Hiệu ứng mờ và phóng to khi di chuột qua biểu tượng */
-    .icon:hover {
-        filter: blur(2px);
-        transform: scale(1.1);
-    }
+/* Định dạng chữ trượt ngang */
+.slide-text {
+    opacity: 0;              
+    margin-left: 10px;        
+    white-space: nowrap;       
+    color: #f1ece2;              
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+    transform: translateX(-50px); 
+}
 
-    /* Định dạng chữ trượt ngang */
-    .slide-text {
-        opacity: 0;              
-        margin-left: 10px;         
-        transform: translateX(-50px); 
-        transition: transform 0.3s ease, opacity 0.3s ease; 
-        white-space: nowrap;       
-        color: #f1ece2;               
-    }
+/* Khi di chuột vào container của biểu tượng */
+.icon-container:hover .icon {
+    transform: translateX(-50px); 
+}
 
-    /* Hiệu ứng trượt vào và hiện chữ khi di chuột qua container của biểu tượng */
-    .icon-container:hover .slide-text {
-        opacity: 1;               
-        transform: translateX(0);   
-    }
+.icon-container:hover .slide-text {
+    opacity: 1;                
+    transform: translateX(0);    
+}
+
 /* Phần dưới với menu điều hướng */
 .header-nav {
     background-color: #9ea762; 
