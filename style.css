@@ -55,6 +55,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding: 10px;
+    width: 100px;
 }
 
 /* Định dạng vùng chứa biểu tượng và chữ */
