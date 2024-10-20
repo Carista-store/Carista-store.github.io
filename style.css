@@ -49,15 +49,27 @@ body {
     }
 
 /* Phần biểu tượng chức năng */
-.header-icons {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    transition: all 0.3s ease;
-}
-header-icons:hover {
-    filter: blur(2px);
-}
+        /* Định dạng vùng chứa các biểu tượng trong header */
+        .header-icons {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Định dạng các biểu tượng trong header */
+        .header-icons .icon {
+            width: 40px;  
+            height: 40px; 
+            margin-right: 20px;  
+            transition: filter 0.3s ease, transform 0.3s ease; 
+        }
+
+        /* Hiệu ứng mờ và phóng to khi di chuột qua */
+        .header-icons .icon:hover {
+            filter: blur(2px); 
+            transform: scale(1.1);
+        }
+
     .header-icons div {
         display: flex;
         align-items: center;
