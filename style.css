@@ -360,7 +360,7 @@ footer {
     width: 35px;
     height: 35px;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
    .header-container {
     width: 100%;
    }
@@ -376,16 +376,14 @@ footer {
     .search-bar {
         display: flex;
     align-items:center;
-    margin-right: 300px;
+    margin-right: 30px;
     width: 35%;
     position: relative;
     }
 
-    .header-nav ul {
+    .header-nav a {
         flex-direction: column;
         gap: 10px;
-    }
-    .header-nav a {
         font-size: 1em;
     }
     h1 {
