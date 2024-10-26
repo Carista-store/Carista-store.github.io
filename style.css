@@ -349,6 +349,9 @@ footer {
     height: 35px;
 }
 @media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
     /* Thanh tìm kiếm */
     .search-bar {
         width: 40%;
@@ -516,7 +519,6 @@ footer {
     }
 
     footer {
-        width:auto;
         display: flex;
         justify-content: space-between;
         padding: 10px;
