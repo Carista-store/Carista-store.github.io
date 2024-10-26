@@ -386,10 +386,10 @@ footer {
         gap: 10px;
     }
     .header-nav a {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     h1 {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     .icon {
@@ -399,7 +399,7 @@ footer {
     .introduce {
         align-items: center;
         margin-left: 50px;
-        font-size: 0.5em5em;
+        font-size: 0.75em;
     }
     .blog {
         margin-left: 5px;
@@ -435,7 +435,7 @@ footer {
         gap: 10px;
     }
     .product a {
-        font-size: 1em;
+        font-size: 0.75em;
     }
     .product p {
         font-size: 0.5em;
@@ -451,7 +451,7 @@ footer {
         width: 100%;
     }
     .footer-column h3 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .footer-column p {
         font-size: 0.75em;
