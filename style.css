@@ -350,6 +350,7 @@ footer {
 }
 @media (max-width: 1920px) {
     .logo img {
+        float: left;
         margin-left:0;
         width: 40px;
     }
@@ -363,7 +364,7 @@ footer {
     display: flex;
     align-items:center;
     margin-right: 0;
-    width: 60px;
+    width: 120px;
 }
 
 .search-icon {
@@ -375,8 +376,8 @@ footer {
 /* Định dạng vùng chứa biểu tượng và chữ */
 .icon-container {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -384,13 +385,13 @@ footer {
 
 /* Định dạng các biểu tượng */
 .icon img {
-    width: 15px;
-    height: 15px;
+    width: 5px;
+    height: 5px;
 }
 .icon {
     left: 0;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 5px;
     display:flex;
     align-items: center;
