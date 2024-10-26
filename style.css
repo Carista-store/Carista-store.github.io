@@ -349,6 +349,9 @@ footer {
     height: 35px;
 }
 @media (max-width: 480px) {
+    .logo img {
+        margin-left:0;
+    }
   /* Tổng quát cho header */
 .header-container {
     width: 100%;
@@ -366,7 +369,7 @@ footer {
 .search-bar {
     display: flex;
     align-items:center;
-    width: 50%;
+    width: 35%;
 }
 
     .search-bar input {
@@ -383,12 +386,11 @@ footer {
 /* Định dạng vùng chứa biểu tượng và chữ */
 .icon-container {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content:center;
-    margin-right: 5px;
 }
 
 /* Định dạng các biểu tượng */
@@ -442,7 +444,7 @@ footer {
     top: 50%;
     width: auto;
     padding: 8px;
-    margin-top: -11px;
+    margin-top: -10px;
     font-weight: bold;
     font-size: 12px;
 }
@@ -465,39 +467,40 @@ footer {
 /* Định dạng tiêu đề */
 h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.75em;
     margin-top: 10px;
     margin-bottom: 0.25em;
 }
 /* Định dạng cho các đoạn văn */
 .introduce {
     text-align: center;
-    width: 50%;
-    margin-left: 80px;
+    width: 60%;
+    margin-left: 70px;
     font-size: 0.8em; 
     line-height: 0.8; 
     margin-bottom: 0.5em;
 }
 .spotlight-product {
     width: 100%;
-    margin: 40px auto;
+    margin: 30px auto;
     padding: 10px;
+    font-size: 1.75em;
+    text-align: center;
 }
 .product-list {
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
 }
 
 .product {
     width: 30%;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
 .product img {
     width: 120px;
-    height: 150px;
+    height: 140px;
     border-radius: 8px;
 }
 
@@ -525,7 +528,7 @@ h1 {
 }
 
 .title { 
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 .button {
@@ -536,7 +539,7 @@ h1 {
 }
 
 .arrow {
-    margin-left: 4px;
+    margin-left: 0;
     font-size: 0.6rem;
 }
 
@@ -552,7 +555,7 @@ footer {
 }
 
 .footer-column h3 {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     margin-bottom: 5px;
 }
 
@@ -567,7 +570,7 @@ footer {
 }
 .footer-column .social-icons img,
 .footer-column .payment-icons img {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
 }
 }
