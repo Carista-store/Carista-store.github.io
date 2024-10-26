@@ -193,13 +193,11 @@ body {
     width: 100%;
 }
 .dot {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    background-color: #f1ece2;
-    border-radius: 50%;
-    display:inline-block;
+    display: flex;
+    align-items:center;
+    margin-right: 300px;
+    width: 35%;
+    position: relative;
     transition: background-color 0.6s ease;
 }
 
@@ -363,18 +361,31 @@ footer {
     height: 35px;
 }
 @media (max-width: 480px) {
+   .header-container {
+    width: 100%;
+   }
     .header-top {
         flex-direction: column;
         gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 10px;
     }
 
     .search-bar {
-        width: 100%;
+        display: flex;
+    align-items:center;
+    margin-right: 300px;
+    width: 35%;
+    position: relative;
     }
 
     .header-nav ul {
         flex-direction: column;
         gap: 10px;
+    }
+    .header-nav a {
         font-size: 1.5em;
     }
     h1 {
@@ -387,13 +398,14 @@ footer {
 
     .introduce {
         align-items: center;
-        margin-left: 10px;
+        margin-left: 50px;
+        font-size: 0.5em5em;
     }
     .blog {
         margin-left: 5px;
     }
     .button {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .arrow {
         font-size: 1.2em;
@@ -407,12 +419,16 @@ footer {
     bottom: 10px;
     width: 100%;
 }
+.dot {
+    display: flex;
+    align-items:center;
+    margin-right: 30px;
+    width: 35%;
+    position: relative;
+}
     .all-posts-button {
         padding: 8px 16px;
         font-size: 0.9em;
-    }
-    p {
-        font-size: 0.5em;
     }
     .product {
         flex-direction: column;
@@ -421,17 +437,33 @@ footer {
     .product a {
         font-size: 1em;
     }
+    .product p {
+        font-size: 0.5em;
+    }
     .product img {
         width: 100%;
+        height:auto;
     }
 
     .footer {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+    }
+    .footer-column h3 {
+        font-size: 1.2em;
+    }
+    .footer-column p {
+        font-size: 0.75em;
     }
 
     .footer-column {
         width: 100%;
         text-align: center;
     }
+    .footer-column .social-icons img,
+.footer-column .payment-icons img {
+    width: 20px;
+    height: 20px;
+}
 }
