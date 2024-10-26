@@ -351,7 +351,7 @@ footer {
 @media (max-width: 768px) {
     .logo img {
         margin-left:0;
-        width: 30%;
+        width: 25%;
     }
   /* Tổng quát cho header */
 .header-container {
@@ -360,18 +360,16 @@ footer {
 
 /* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
 .header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 5px;
+    flex-direction: column;
+        gap: 10px;
 }
 
 /* Thanh tìm kiếm */
 .search-bar {
     display: flex;
     align-items:center;
-    margin-right: 10px;
-    width: 60px;
+    margin-right: 0;
+    width: 35%;
 }
 
 .search-icon {
@@ -407,8 +405,12 @@ footer {
 }
 
     .header-nav ul {
-        flex-direction: column;
-        gap: 15px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
     }
 
     .header-nav li {
