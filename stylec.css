@@ -143,16 +143,17 @@ body {
         color: #5a3e29; 
         font-size: 4em;
         font-weight: bold;
-        margin-top: 20px;
+        margin-top: 50px;
         margin-bottom: 0.5em;
         margin-left: 20px;
     }
     hr {
-        width: 50%;
+        width: 20%;
         height: 2px;
         background-color: #526707; 
         border: none;
-        margin: 10px auto;
+        float: left;
+        margin-left: 0;
     }
     p {
         text-align: center;
