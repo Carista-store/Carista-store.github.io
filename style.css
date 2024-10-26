@@ -477,14 +477,13 @@ h1 {
     width: 60%;
     margin-left: 70px;
     font-size: 0.8em; 
-    line-height: 0.8; 
+    line-height: 1; 
     margin-bottom: 0.5em;
 }
 .spotlight-product {
     width: 100%;
     margin: 30px auto;
     padding: 10px;
-    font-size: 1.75em;
     text-align: center;
 }
 .product-list {
@@ -501,7 +500,7 @@ h1 {
 .product img {
     width: 120px;
     height: 140px;
-    border-radius: 8px;
+    margin-left: 0;
 }
 
 .product a {
@@ -561,7 +560,7 @@ footer {
 
 .footer-column p {
     margin: 2.5px 0;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
 }
 .social-icons, .payment-icons {
     display: flex;
