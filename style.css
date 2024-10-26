@@ -348,7 +348,7 @@ footer {
     width: 35px;
     height: 35px;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   /* Tổng quát cho header */
 .header-container {
     width: 100%;
@@ -367,7 +367,7 @@ footer {
     display: flex;
     align-items:center;
     margin-right: 30px;
-    width: 10%;
+    width: 30%;
     position: relative;
 }
 
@@ -415,8 +415,8 @@ footer {
 .icon {
     position:absolute;
     left: 0;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 5px;
     display:flex;
     align-items: center;
@@ -528,7 +528,7 @@ h1 {
 
 .product img {
     width: 30px;
-    height: 70px;
+    height: 80px;
     border-radius: 8px;
 }
 
@@ -589,6 +589,7 @@ footer {
 
 .footer-column p {
     margin: 2.5px 0;
+    font-size: 0.3;
 }
 .social-icons, .payment-icons {
     display: flex;
@@ -597,7 +598,7 @@ footer {
 }
 .footer-column .social-icons img,
 .footer-column .payment-icons img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 }
