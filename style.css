@@ -348,7 +348,7 @@ footer {
     width: 35px;
     height: 35px;
 }
-@media (max-width: 480px) {
+@media (max-width: 414px) {
   /* Tổng quát cho header */
 .header-container {
     width: 100%;
@@ -366,8 +366,8 @@ footer {
 .search-bar {
     display: flex;
     align-items:center;
-    margin-right: 30px;
-    width: 30%;
+    margin-right: 20px;
+    width: 40%;
     position: relative;
 }
 
@@ -379,12 +379,6 @@ footer {
         box-sizing: border-box;
     }
 
-    .search-bar button {
-        position: absolute;
-        right: 1px;
-        top: 55%;
-        align-items:flex-end;
-    }
 .search-icon {
     width: 30px;
     height: 30px;
@@ -402,8 +396,8 @@ footer {
 /* Định dạng vùng chứa biểu tượng và chữ */
 .icon-container {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -415,8 +409,8 @@ footer {
 .icon {
     position:absolute;
     left: 0;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     margin: 5px;
     display:flex;
     align-items: center;
@@ -428,7 +422,7 @@ footer {
     position:absolute;
     right: 0;
     opacity: 0;                    
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Phần dưới với menu điều hướng */
@@ -441,7 +435,7 @@ footer {
         padding: 0;
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 15px;
     }
 
     .header-nav li {
@@ -449,6 +443,9 @@ footer {
     }
 
     .header-nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 10px;
         font-size: 12px;
     }
@@ -458,39 +455,6 @@ footer {
     position: relative;
     max-width: 100%;
     margin: auto;
-}
-
-/* Định dạng mũi tên điều khiển */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 10px;
-    margin-top: -15px;
-    font-weight: bold;
-    font-size: 16px;
-    user-select: none;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* Định dạng dấu chấm để chỉ số hình ảnh */
-.dots {
-    text-align: center;
-    position:absolute;
-    bottom: 30px;
-    width: 100%;
-}
-.dot {
-    display: flex;
-    align-items:center;
-    margin-right: 30px;
-    width: 35%;
-    position: relative;
 }
 
 /* Định dạng tiêu đề */
@@ -503,9 +467,9 @@ h1 {
 /* Định dạng cho các đoạn văn */
 .introduce {
     text-align: center;
-    width: 50%;
-    margin-left: 30px;
-    font-size: 0.6em; 
+    width: 60%;
+    margin-left: 50px;
+    font-size: 0.8em; 
     line-height: 1; 
     margin-bottom: 0.5em;
 }
@@ -522,19 +486,20 @@ h1 {
 
 .product {
     width: 30%;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
 .product img {
     width: 30px;
-    height: 80px;
+    height: 90px;
     border-radius: 8px;
 }
 
 .product a {
     font-size: 0.6em;
     padding: 10px;
+    text-align: center;
 }
 
 .product p {
@@ -552,7 +517,7 @@ h1 {
             justify-content: space-between;
             width: 80%;
             padding: 10px;
-            margin-left: 30px;
+            margin-left: 10px;
 }
 
 .title {
@@ -589,7 +554,7 @@ footer {
 
 .footer-column p {
     margin: 2.5px 0;
-    font-size: 0.3;
+    font-size: 0.3rem;
 }
 .social-icons, .payment-icons {
     display: flex;
