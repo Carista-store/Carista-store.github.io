@@ -139,12 +139,20 @@ body {
         }
     h1 {
         font-family: serif; 
-        text-align: center;
+        text-align:left;
         color: #5a3e29; 
         font-size: 4em;
         font-weight: bold;
         margin-top: 20px;
         margin-bottom: 0.5em;
+        margin-left: 20px;
+    }
+    hr {
+        width: 50%;
+        height: 2px;
+        background-color: #526707; 
+        border: none;
+        margin: 10px auto;
     }
     p {
         text-align: center;
