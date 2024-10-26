@@ -475,7 +475,7 @@ h1 {
 }
 .spotlight-product {
     width: 100%;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 10px;
 }
 .product-list {
@@ -490,15 +490,9 @@ h1 {
     text-align: center;
 }
 
-.product img {
-    width: 20px;
-    height: 80px;
-    border-radius: 8px;
-}
-
 .product a {
     font-size: 0.6em;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 

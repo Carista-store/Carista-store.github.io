@@ -1,0 +1,172 @@
+body {
+    background-color: #f1ece2;
+}
+/* Tổng quát cho header */
+.header-container {
+    background-color: #b5c66c; 
+    color: #f1ece2;
+    font-family: serif;
+    width: 100%;
+}
+
+/* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+/* Thanh tìm kiếm */
+.search-bar {
+    display: flex;
+    align-items:center;
+    margin-right: 300px;
+    width: 35%;
+    position: relative;
+}
+
+    .search-bar input {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+
+    .search-bar button {
+        position: absolute;
+        right: 1px;
+        top: 55%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border: none;
+        align-items:flex-end;
+    }
+.search-icon {
+    width: 50px;
+    height: 50px;
+    transition: filter 0.3s ease;
+}
+.search-icon:hover {
+    transform: scale(1.2);
+}
+/* Phần biểu tượng chức năng */
+   /* Định dạng vùng chứa các biểu tượng trong header */
+.header-icons {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Định dạng vùng chứa biểu tượng và chữ */
+.icon-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden; 
+    margin-right: 10px;
+}
+
+/* Định dạng các biểu tượng */
+.icon {
+    position:absolute;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* Định dạng chữ trượt ngang */
+.text {
+    position:absolute;
+    right: 0;
+    opacity: 0;                    
+    color: #f1ece2;              
+    transition: opacity 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+/* Khi di chuột vào container của biểu tượng */
+.icon-container:hover .icon {
+    transform: translateX(-100%); 
+}
+
+.icon-container:hover .text {
+    opacity: 1;                
+    transition-delay: 0.2s;  
+}
+
+/* Phần dưới với menu điều hướng */
+.header-nav {
+    background-color: #9ea762; 
+    padding: 10px 0;
+}
+
+    .header-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .header-nav li {
+        display: inline;
+    }
+
+    .header-nav a {
+        color: #f1ece2;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: larger;
+    }
+
+        .header-nav a:hover {
+            background-color: #b5c66c;
+        }
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #b5c66c;
+    color:#5a3e29;
+    border-top: 2px solid #526707;
+}
+
+.footer-column {
+    padding: 0 10px; 
+    margin-left: 10px;
+}
+
+.footer-column h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    margin: 5px 0;
+}
+.social-icons, .payment-icons {
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+}
+.footer-column .social-icons img,
+.footer-column .payment-icons img {
+    width: 35px;
+    height: 35px;
+}
