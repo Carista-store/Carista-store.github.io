@@ -360,7 +360,7 @@ footer {
     width: 35px;
     height: 35px;
 }
-@media (max-width: 768px) {
+@media (max-width: 360px) {
     .header-container {
         width: 100%;
     }
@@ -377,20 +377,18 @@ footer {
     .search-bar {
         display: flex;
         align-items:center;
-        width: 35%;
-        position: relative;
+        width: 40%;
     }
     
         .search-bar input {
             width: 100%;
-            padding: 12px;
+            padding: px;
             border: none;
             border-radius: 8px;
             box-sizing: border-box;
         }
     
         .search-bar button {
-            position: absolute;
             right: 1px;
             top: 55%;
             align-items:flex-end;
@@ -581,12 +579,13 @@ footer {
     }
     
     .footer-column h3 {
-        font-size: 0.5rem;
+        font-size: 0.75rem;
         margin-bottom: 10px;
     }
     
     .footer-column p {
         margin: 5px 0;
+        font-size: 0.4em;
     }
     .social-icons, .payment-icons {
         display: flex;
@@ -598,3 +597,4 @@ footer {
         width: 20px;
         height: 20px;
     }
+}
