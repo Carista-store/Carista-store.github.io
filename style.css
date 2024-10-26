@@ -349,14 +349,6 @@ footer {
     height: 35px;
 }
 @media (max-width: 480px) {
-    /* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
-    .header-top {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 10px;
-    }
-    
     /* Thanh tìm kiếm */
     .search-bar {
         display: flex;
@@ -382,20 +374,14 @@ footer {
     .icon-container {
         width: 30px;
         height: 30px;
-        display: flex;
-        align-items: center;
-        justify-content:center;
     }
     
     /* Định dạng các biểu tượng */
     .icon {
         left: 0;
-        width: 20px;
-        height: 20px;
+        width: 10px;
+        height: 10px;
         margin: 10px;
-        display:flex;
-        align-items: center;
-        justify-content:center;
     }
     
     /* Định dạng chữ trượt ngang */
