@@ -351,7 +351,6 @@ footer {
 @media (max-width: 1080px) {
     .logo img {
         margin-left:0;
-        width: 10%;
     }
   /* Tổng quát cho header */
 .header-container {
@@ -360,8 +359,7 @@ footer {
 
 /* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
 .header-top {
-    flex-direction: column;
-        gap: 5px;
+  display:inline;
 }
 
 /* Thanh tìm kiếm */
@@ -381,8 +379,8 @@ footer {
 /* Định dạng vùng chứa biểu tượng và chữ */
 .icon-container {
     position: relative;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     display: flex;
     align-items: center;
     justify-content:center;
