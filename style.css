@@ -348,11 +348,9 @@ footer {
     width: 35px;
     height: 35px;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     /* Thanh tìm kiếm */
     .search-bar {
-        display: flex;
-        align-items:center;
         width: 40%;
     }
     
@@ -372,8 +370,8 @@ footer {
     
     /* Định dạng vùng chứa biểu tượng và chữ */
     .icon-container {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
     
     /* Định dạng các biểu tượng */
@@ -456,7 +454,7 @@ footer {
     /* Định dạng cho các đoạn văn */
     .introduce {
         text-align: center;
-        width: 50%;
+        width: 60%;
         margin-left: 100px;
         font-size: 0.75em; 
         line-height: 1.6; 
@@ -480,12 +478,10 @@ footer {
     
     .product a {
         font-size: 0.5em;
-        padding: 10px;
-        text-decoration: none;
     }
     
     .product p {
-        font-size: 0.5em;
+        font-size: 0.25em;
         margin: 0 0 10px;
     }
     
@@ -498,7 +494,6 @@ footer {
         display: flex;
                 align-items: center;
                 justify-content: space-between;
-                width: 80%;
                 padding: 20px;
                 margin-left: 10px;
     }
@@ -510,24 +505,25 @@ footer {
     .button {
         display: flex;
         align-items: center;
-        padding: 10px 20px;
+        padding: 10px 10px;
         text-decoration: none;
         font-size: 1rem;
     }
     
     .arrow {
         margin-left: 8px;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
     }
 
     footer {
+        width:auto;
         display: flex;
         justify-content: space-between;
         padding: 10px;
     }
     
     .footer-column h3 {
-        font-size: 0.2rem;
+        font-size: 0.3rem;
         margin-bottom: 10px;
     }
     
