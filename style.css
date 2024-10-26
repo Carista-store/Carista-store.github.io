@@ -1,6 +1,4 @@
 body {
-    margin: 0;
-    padding: 0;
     background-color: #f1ece2;
 }
 /* Tổng quát cho header */
@@ -351,10 +349,6 @@ footer {
     height: 35px;
 }
 @media (max-width: 480px) {
-    .header-container {
-        width: 100%;
-    }
-    
     /* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
     .header-top {
         display: flex;
@@ -478,14 +472,19 @@ footer {
         text-align: center;
         width: 50%;
         margin-left: 100px;
-        font-size: 0.5em; 
+        font-size: 0.75em; 
         line-height: 1.6; 
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
     }
     .spotlight-product {
         max-width: 1200px;
         margin: 100px auto;
         padding: 20px;
+    }
+    .product-list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
     }
     .product img {
         width: 40px;
