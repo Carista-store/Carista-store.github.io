@@ -350,7 +350,7 @@ footer {
     width: 35px;
     height: 35px;
 }
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .header-container {
         width: 100%;
     }
@@ -367,7 +367,7 @@ footer {
     .search-bar {
         display: flex;
         align-items:center;
-        width: 40%;
+        width: 80%;
     }
     
     .search-icon {
