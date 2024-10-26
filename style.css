@@ -265,7 +265,7 @@ h1 {
 .product p {
     color: #5a3e29;
     font-size: 0.9em;
-    margin: 0 0 10px;
+    margin: 5px 0 15px;
 }
 
 .product .price {
@@ -359,23 +359,18 @@ footer {
 
 /* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
 .header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 5px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 /* Thanh tìm kiếm */
 .search-bar {
     display: flex;
     align-items:center;
+    margin-right: 20px;
     width: 35%;
+    position: relative;
 }
-
-    .search-bar input {
-        width: 100%;
-        padding: 10px;
-    }
 
 .search-icon {
     width: 30px;
@@ -410,12 +405,8 @@ footer {
 }
 
     .header-nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        gap: 10px;
+        flex-direction: column;
+        gap: 15px;
     }
 
     .header-nav li {
@@ -475,10 +466,10 @@ h1 {
 .introduce {
     text-align: center;
     width: 60%;
-    margin-left: 80px;
+    margin-left: 70px;
     font-size: 0.8em; 
     line-height: 1; 
-    margin-bottom: 0.8em;
+    margin-bottom: 1em;
 }
 .spotlight-product {
     width: 100%;
