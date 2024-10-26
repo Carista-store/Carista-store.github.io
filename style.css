@@ -348,7 +348,7 @@ footer {
     width: 35px;
     height: 35px;
 }
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   /* Tổng quát cho header */
 .header-container {
     width: 100%;
@@ -485,14 +485,14 @@ h1 {
 }
 
 .product {
-    width: 30%;
+    width: 25%;
     padding: 5px;
     text-align: center;
 }
 
 .product img {
-    width: 30px;
-    height: 90px;
+    width: 20px;
+    height: 80px;
     border-radius: 8px;
 }
 
