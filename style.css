@@ -236,16 +236,6 @@ h1 {
     margin: 100px auto;
     padding: 20px;
 }
-
-.h2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    font-size: 1.5em;
-    color: #5a3e29;
-}
-
 .product-list {
     display: flex;
     justify-content: space-between;
@@ -360,7 +350,7 @@ footer {
     width: 35px;
     height: 35px;
 }
-@media (max-width: 360px) {
+@media (max-width: 320px) {
     .header-container {
         width: 100%;
     }
@@ -380,19 +370,6 @@ footer {
         width: 40%;
     }
     
-        .search-bar input {
-            width: 100%;
-            padding: px;
-            border: none;
-            border-radius: 8px;
-            box-sizing: border-box;
-        }
-    
-        .search-bar button {
-            right: 1px;
-            top: 55%;
-            align-items:flex-end;
-        }
     .search-icon {
         width: 30px;
         height: 30px;
@@ -421,8 +398,8 @@ footer {
     /* Định dạng các biểu tượng */
     .icon {
         left: 0;
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         margin: 10px;
         display:flex;
         align-items: center;
@@ -430,10 +407,7 @@ footer {
     }
     
     /* Định dạng chữ trượt ngang */
-    .text {
-        right: 0;
-        opacity: 0;                    
-        color: #f1ece2;              
+    .text {            
         font-size: 14px;
     }
     
@@ -447,7 +421,7 @@ footer {
             padding: 0;
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 15px;
         }
     
         .header-nav li {
@@ -459,7 +433,7 @@ footer {
             font-weight: bold;
             padding: 10px;
             text-transform: uppercase;
-            font-size: 18px;
+            font-size: 14px;
         }
     
     /* Định dạng dấu chấm để chỉ số hình ảnh */
@@ -471,8 +445,8 @@ footer {
     .dot {
         display: flex;
         align-items:center;
-        margin-right: 30px;
-        width: 35%;
+        margin-right: 20px;
+        width: 50%;
     }
     
     /* Định dạng tiêu đề */
@@ -487,7 +461,7 @@ footer {
     .introduce {
         text-align: center;
         width: 50%;
-        margin-left: 38px;
+        margin-left: 50px;
         font-size: 0.5em; 
         line-height: 1.6; 
         margin-bottom: 1em;
@@ -497,35 +471,14 @@ footer {
         margin: 100px auto;
         padding: 20px;
     }
-    
-    .h2 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 0;
-        font-size: 1em;
-    }
-    
-    .product-list {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-    }
-    
-    .product {
-        width: 30%;
-        padding: 20px;
-        text-align: center;
-    }
-    
     .product img {
-        width: 30px;
-        height: 40px;
+        width: 40px;
+        height: 70px;
         border-radius: 8px;
     }
     
     .product a {
-        font-size: 1em;
+        font-size: 0.75em;
         padding: 10px;
         text-decoration: none;
     }
@@ -536,19 +489,10 @@ footer {
     }
     
     .product .price {
-        font-size: 1em;
+        font-size: 0.5em;
         font-weight: bold;
         margin-top: 20px;
     }
-    .blog {
-        display: flex;
-                align-items: center;
-                justify-content: space-between;
-                width: 80%;
-                padding: 20px;
-                margin-left: 20px;
-    }
-    
     .title {
         font-size: 2em;
         font-weight: bold;
@@ -559,23 +503,18 @@ footer {
         align-items: center;
         padding: 10px 20px;
         text-decoration: none;
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     
     .arrow {
         margin-left: 8px;
-        font-size: 0.5rem;
+        font-size: 0.75rem;
     }
 
     footer {
         display: flex;
         justify-content: space-between;
         padding: 10px;
-    }
-    
-    .footer-column {
-        padding: 0 10px; 
-        margin-left: 10px;
     }
     
     .footer-column h3 {
@@ -585,7 +524,7 @@ footer {
     
     .footer-column p {
         margin: 5px 0;
-        font-size: 0.4em;
+        font-size: 0.2em;
     }
     .social-icons, .payment-icons {
         display: flex;
