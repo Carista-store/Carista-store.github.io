@@ -361,107 +361,240 @@ footer {
     height: 35px;
 }
 @media (max-width: 768px) {
-   .header-container {
-    width: 100%;
-   }
+    .header-container {
+        width: 100%;
+    }
+    
+    /* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
     .header-top {
-        flex-direction: column;
-        gap: 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 10px 10px;
     }
-
+    
+    /* Thanh tìm kiếm */
     .search-bar {
         display: flex;
-    align-items:center;
-    margin-right: 30px;
-    width: 35%;
-    position: relative;
+        align-items:center;
+        width: 35%;
+        position: relative;
     }
-
-    .header-nav a {
-        flex-direction: column;
-        gap: 10px;
-        font-size: 1em;
-    }
-    h1 {
-        font-size: 1.5em;
-    }
-
-    .icon {
+    
+        .search-bar input {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+    
+        .search-bar button {
+            position: absolute;
+            right: 1px;
+            top: 55%;
+            align-items:flex-end;
+        }
+    .search-icon {
         width: 30px;
+        height: 30px;
     }
-
-    .introduce {
-        align-items: center;
-        margin-left: 50px;
-        font-size: 0.75em;
-    }
-    .blog {
-        margin-left: 5px;
-    }
-    .button {
-        font-size: 1em;
-    }
-    .arrow {
-        font-size: 1.2em;
-    }
-    .title {
-        font-size: 1.2em;
-    }
-.dots {
-    text-align: center;
-    position:absolute;
-    bottom: 10px;
-    width: 100%;
-}
-.dot {
-    display: flex;
-    align-items:center;
-    margin-right: 30px;
-    width: 35%;
-    position: relative;
-}
-    .all-posts-button {
-        padding: 8px 16px;
-        font-size: 0.9em;
-    }
-    .product {
-        flex-direction: column;
+    /* Phần biểu tượng chức năng */
+       /* Định dạng vùng chứa các biểu tượng trong header */
+    .header-icons {
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        padding: 10px;
         gap: 10px;
     }
-    .product a {
-        font-size: 0.75em;
-    }
-    .product p {
-        font-size: 0.5em;
-    }
-    .product img {
-        width: 100%;
-        height:auto;
-    }
-
-    .footer {
-        flex-direction: column;
+    
+    /* Định dạng vùng chứa biểu tượng và chữ */
+    .icon-container {
+        width: 40px;
+        height: 40px;
+        display: flex;
         align-items: center;
+        justify-content:center;
+        overflow: hidden; 
+        margin-right: 10px;
+    }
+    
+    /* Định dạng các biểu tượng */
+    .icon {
+        left: 0;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    /* Định dạng chữ trượt ngang */
+    .text {
+        right: 0;
+        opacity: 0;                    
+        color: #f1ece2;              
+        font-size: 14px;
+    }
+    
+    /* Phần dưới với menu điều hướng */
+    .header-nav {
+        padding: 10px 0;
+    }
+    
+        .header-nav ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+    
+        .header-nav li {
+            display: inline;
+        }
+    
+        .header-nav a {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+    
+    /* Định dạng dấu chấm để chỉ số hình ảnh */
+    .dots {
+        text-align: center;
+        bottom: 30px;
         width: 100%;
     }
-    .footer-column h3 {
+    .dot {
+        display: flex;
+        align-items:center;
+        margin-right: 30px;
+        width: 35%;
+    }
+    
+    /* Định dạng tiêu đề */
+    h1 {
+        text-align: center; 
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 0.5em;
+    }
+    /* Định dạng cho các đoạn văn */
+    .introduce {
+        text-align: center;
+        width: 50%;
+        margin-left: 38px;
+        font-size: 0.5em; 
+        line-height: 1.6; 
+        margin-bottom: 1em;
+    }
+    .spotlight-product {
+        max-width: 1200px;
+        margin: 100px auto;
+        padding: 20px;
+    }
+    
+    .h2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
         font-size: 1em;
     }
-    .footer-column p {
-        font-size: 0.75em;
+    
+    .product-list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
     }
-
-    .footer-column {
-        width: 100%;
+    
+    .product {
+        width: 30%;
+        padding: 20px;
         text-align: center;
     }
+    
+    .product img {
+        width: 30px;
+        height: 40px;
+        border-radius: 8px;
+    }
+    
+    .product a {
+        font-size: 1em;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .product p {
+        font-size: 0.5em;
+        margin: 0 0 10px;
+    }
+    
+    .product .price {
+        font-size: 1em;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .blog {
+        display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 80%;
+                padding: 20px;
+                margin-left: 20px;
+    }
+    
+    .title {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .button {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 0.5rem;
+    }
+    
+    .arrow {
+        margin-left: 8px;
+        font-size: 0.5rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .footer-column {
+        padding: 0 10px; 
+        margin-left: 10px;
+    }
+    
+    .footer-column h3 {
+        font-size: 0.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .footer-column p {
+        margin: 5px 0;
+    }
+    .social-icons, .payment-icons {
+        display: flex;
+        gap: 10px; 
+        align-items: center;
+    }
     .footer-column .social-icons img,
-.footer-column .payment-icons img {
-    width: 20px;
-    height: 20px;
-}
-}
+    .footer-column .payment-icons img {
+        width: 20px;
+        height: 20px;
+    }
