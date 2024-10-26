@@ -475,15 +475,15 @@ h1 {
 .introduce {
     text-align: center;
     width: 60%;
-    margin-left: 70px;
+    margin-left: 80px;
     font-size: 0.8em; 
     line-height: 1; 
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
 }
 .spotlight-product {
     width: 100%;
     margin: 30px auto;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 .product-list {
@@ -504,7 +504,7 @@ h1 {
 }
 
 .product a {
-    font-size: 0.5em;
+    font-size: 0.4em;
     padding: 5px;
 }
 
