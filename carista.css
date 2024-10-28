@@ -133,8 +133,9 @@ height: 2.5vw;
 /* Phần dưới với menu điều hướng */
 .header-nav {
     background-color: #9ea762; 
-    padding: 0.5vw;
+    padding: 1vw;
     width:100%;
+    margin: 0;
 }
 
     .header-nav ul {
@@ -169,7 +170,7 @@ height: 2.5vw;
             display: flex;
             align-items: center; 
             justify-items:center;
-            margin: 4vw 0 0 1.5vw;
+            margin: 3vw 0 0 1vw;
             gap: 1.5vw;
         }   
     .image {
