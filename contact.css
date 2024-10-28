@@ -18,16 +18,21 @@ body {
 /* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
 .header-top {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content:space-between;
     padding: 10px 10px;
 }
-
+.logo {
+    display: flex;
+    align-items:center;
+    justify-content:left;
+}
 /* Thanh tìm kiếm */
 .search-bar {
     display: flex;
     align-items:center;
-    width: 35%;
+    justify-content:center;
+    width: 550px;
     position: relative;
 }
 
@@ -46,7 +51,8 @@ body {
         transform: translateY(-50%);
         background-color: transparent;
         border: none;
-        align-items:flex-end;
+        align-items:center;
+        justify-content: right;
     }
 .search-icon {
     width: 50px;
@@ -60,10 +66,10 @@ body {
    /* Định dạng vùng chứa các biểu tượng trong header */
 .header-icons {
     display: flex;
-    justify-content:center;
+    justify-content:right;
     align-items:center;
     padding: 10px;
-    gap: 10px;
+    gap: 20px;
 }
 
 /* Định dạng vùng chứa biểu tượng và chữ */
@@ -81,9 +87,9 @@ body {
 .icon {
     position:absolute;
     left: 0;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 0;
     display:flex;
     align-items: center;
     justify-content:center;
@@ -97,7 +103,7 @@ body {
     opacity: 0;                    
     color: #f1ece2;              
     transition: opacity 0.3s ease-in-out;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* Khi di chuột vào container của biểu tượng */
@@ -122,7 +128,8 @@ body {
         padding: 0;
         display: flex;
         justify-content: center;
-        gap: 40px;
+        align-items: center;
+        gap: 60px;
     }
 
     .header-nav li {
@@ -135,7 +142,7 @@ body {
         font-weight: bold;
         padding: 10px;
         text-transform: uppercase;
-        font-size: larger;
+        font-size: 22px;
     }
 
         .header-nav a:hover {
@@ -155,7 +162,7 @@ body {
 
 /* Container của form */
 .contact-form {
-    max-width: 100%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 30px;
     font-family: sans-serif;
@@ -223,6 +230,7 @@ body {
     padding: 20px;
     font-family: sans-serif;
     text-align:center;
+    max-width: 40%;
 }
 .infor h2 {
     font-size: 25px;

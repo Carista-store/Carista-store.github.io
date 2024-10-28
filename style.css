@@ -18,16 +18,21 @@ body {
 /* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
 .header-top {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content:space-between;
     padding: 10px 10px;
 }
-
+.logo {
+    display: flex;
+    align-items:center;
+    justify-content:left;
+}
 /* Thanh tìm kiếm */
 .search-bar {
     display: flex;
     align-items:center;
-    width: 35%;
+    justify-content:center;
+    width: 550px;
     position: relative;
 }
 
@@ -46,7 +51,8 @@ body {
         transform: translateY(-50%);
         background-color: transparent;
         border: none;
-        align-items:flex-end;
+        align-items:center;
+        justify-content: right;
     }
 .search-icon {
     width: 50px;
@@ -60,10 +66,10 @@ body {
    /* Định dạng vùng chứa các biểu tượng trong header */
 .header-icons {
     display: flex;
-    justify-content:center;
+    justify-content:right;
     align-items:center;
     padding: 10px;
-    gap: 10px;
+    gap: 20px;
 }
 
 /* Định dạng vùng chứa biểu tượng và chữ */
@@ -81,9 +87,9 @@ body {
 .icon {
     position:absolute;
     left: 0;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 0;
     display:flex;
     align-items: center;
     justify-content:center;
@@ -97,7 +103,7 @@ body {
     opacity: 0;                    
     color: #f1ece2;              
     transition: opacity 0.3s ease-in-out;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* Khi di chuột vào container của biểu tượng */
@@ -122,7 +128,8 @@ body {
         padding: 0;
         display: flex;
         justify-content: center;
-        gap: 40px;
+        align-items: center;
+        gap: 60px;
     }
 
     .header-nav li {
@@ -135,7 +142,7 @@ body {
         font-weight: bold;
         padding: 10px;
         text-transform: uppercase;
-        font-size: larger;
+        font-size: 22px;
     }
 
         .header-nav a:hover {
@@ -217,40 +224,55 @@ body {
 }
 
 /* Định dạng tiêu đề */
-h1 {
+.introduce-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    max-width: 100%;
+    padding: 20px;
+}
+.carista h1 {
     color: #5a3e29; 
     font-size: 4em;
     font-weight: bold;
     margin-top: 20px;
-    margin-bottom: 0.5em;
 }
 /* Định dạng cho các đoạn văn */
-.introduce {
-    text-align:center;
+.introduce p {
     font-family: sans-serif; 
-    width: 40%;
     font-size: 1.4em; 
-    line-height: 1.6; 
+    line-height: 1.4; 
     color:#8a5d3d; 
-    margin-bottom: 1em;
+    margin-top: 20px;
+    width: 600px;
 }
 .spotlight-product {
     max-width: 100%;
     margin: 100px auto;
     padding: 20px;
+    text-align: center;
+}
+.spotlight-product h1 {
+    color: #5a3e29; 
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 20px;
 }
 .product-list {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    gap: 20px;
 }
 
 .product {
-    width: 30%;
+    width: 100%;
     background-color: #f1ece2;
     padding: 20px;
-    text-align: center;
 }
 
 .product img {
@@ -284,7 +306,7 @@ h1 {
     display: flex;
             align-items: center;
             justify-content: space-between;
-            width: 80%;
+            width: 100%;
             padding: 20px;
 }
 
@@ -302,6 +324,7 @@ h1 {
     color: #333;
     font-size: 1.2rem;
     transition: background-color 0.3s;
+    gap: 8px;
 }
 
 .button:hover {
@@ -309,7 +332,6 @@ h1 {
 }
 
 .arrow {
-    margin-left: 8px;
     font-size: 1.2rem;
 }
 
@@ -319,6 +341,7 @@ hr {
     background-color: #526707; 
     border: none;
     margin: 10px auto;
+    margin-bottom: 30px;
 }
 footer {
     display: flex;
