@@ -1,0 +1,290 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1ece2;
+}
+/* Tổng quát cho header */
+.header-container {
+    background-color: #b5c66c; 
+    color: #f1ece2;
+    font-family: serif;
+    width: 100%;
+}
+
+/* Phần trên với logo, thanh tìm kiếm, và biểu tượng chức năng */
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+/* Thanh tìm kiếm */
+.search-bar {
+    display: flex;
+    align-items:center;
+    margin-right: 320px;
+    width: 35%;
+    position: relative;
+}
+
+    .search-bar input {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+
+    .search-bar button {
+        position: absolute;
+        right: 1px;
+        top: 55%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border: none;
+        align-items:flex-end;
+    }
+.search-icon {
+    width: 50px;
+    height: 50px;
+    transition: filter 0.3s ease;
+}
+.search-icon:hover {
+    transform: scale(1.2);
+}
+/* Phần biểu tượng chức năng */
+   /* Định dạng vùng chứa các biểu tượng trong header */
+.header-icons {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Định dạng vùng chứa biểu tượng và chữ */
+.icon-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden; 
+    margin-right: 10px;
+}
+
+/* Định dạng các biểu tượng */
+.icon {
+    position:absolute;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* Định dạng chữ trượt ngang */
+.text {
+    position:absolute;
+    right: 0;
+    opacity: 0;                    
+    color: #f1ece2;              
+    transition: opacity 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+/* Khi di chuột vào container của biểu tượng */
+.icon-container:hover .icon {
+    transform: translateX(-100%); 
+}
+
+.icon-container:hover .text {
+    opacity: 1;                
+    transition-delay: 0.2s;  
+}
+
+/* Phần dưới với menu điều hướng */
+.header-nav {
+    background-color: #9ea762; 
+    padding: 10px 0;
+}
+
+    .header-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .header-nav li {
+        display: inline;
+    }
+
+    .header-nav a {
+        color: #f1ece2;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: larger;
+    }
+
+        .header-nav a:hover {
+            background-color: #b5c66c;
+        }
+
+ .contact-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 100px; 
+            max-width: 100%;
+            margin: 0 auto;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+/* Container của form */
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+/* Tiêu đề */
+.contact-form h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color:#5a3e29;
+    line-height: 1.4;
+}
+
+/* Phần mô tả nhỏ */
+.contact-form p {
+    font-size: 18px;
+    color:#8a5d3d;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+/* Định dạng các trường input và textarea */
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #5a3e29;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Căn phải nút */
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+/* Button gửi */
+.contact-form button {
+    background-color:#8a5d3d;
+    color:#f1ece2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 80px;
+}
+
+/* Hiệu ứng khi hover button */
+.contact-form button:hover {
+    background-color:#5a3e29;
+}
+
+.infor {
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    font-family: sans-serif;
+    text-align:center;
+}
+.infor h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color:#5a3e29;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.infor p {
+    font-size: 18px;
+    color:#8a5d3d;
+}
+
+ /* Styling đơn giản cho câu nói */
+ #random-quote {
+    font-family: serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #5a3e29;
+    padding: 20px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 40px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #b5c66c;
+    color:#5a3e29;
+    border-top: 2px solid #526707;
+}
+
+.footer-column {
+    padding: 0 10px; 
+    margin-left: 10px;
+}
+
+.footer-column h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+.social-icons, .payment-icons {
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+}
+.footer-column .social-icons img,
+.footer-column .payment-icons img {
+    width: 30px;
+    height: 30px;
+}
