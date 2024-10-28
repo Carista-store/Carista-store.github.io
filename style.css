@@ -28,15 +28,15 @@ body {
     align-items:center;
     justify-content:left;
     display: block;
-    margin: 0 0 0 5vw;
-    width:40%;
+    margin: 0 0 0 2vw;
+    width:35%;
 }
 /* Tạo container cho thanh tìm kiếm */
 .search-bar {
     display: flex;
     align-items: center;
     width: 50%; 
-    margin: 1vw 1vw 1vw; 
+    margin: 1vw 2vw 1vw; 
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
@@ -78,14 +78,14 @@ body {
     display: flex;
     justify-content:right;
     padding: 0;
-    gap: 1.2vw;
+    gap: 1vw;
 }
 
 /* Định dạng vùng chứa biểu tượng và chữ */
 .icon-container {
     position: relative;
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 5vw;
+    height: 5vw;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -372,6 +372,7 @@ footer {
 .footer-column p {
     margin: 0.75vw 0;
     font-size: 1.2vw;
+    flex-wrap: wrap;
 }
 .social-icons, .payment-icons {
     display: flex;
