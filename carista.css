@@ -6,6 +6,7 @@
 }
 body {
     background-color: #f1ece2;
+    overflow-x: hidden;
 }
 /* Tổng quát cho header */
 .header-container {
@@ -20,7 +21,7 @@ body {
     display: flex;
     align-items:center;
     justify-content:space-between;
-    padding: 10px 10px;
+    padding: 1vw 1vw;
     width: 100%;
 }
 .logo img {
@@ -28,15 +29,15 @@ body {
     align-items:center;
     justify-content:left;
     display: block;
-    margin: 0 0 0 10px;
-    width:40%;
+    margin: 0 0 0 2vw;
+    width:35%;
 }
 /* Tạo container cho thanh tìm kiếm */
 .search-bar {
     display: flex;
     align-items: center;
-    width: 60%; 
-    margin: 10px 50px 10px; 
+    width: 50%; 
+    margin: 1vw 2vw 1vw; 
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
@@ -45,17 +46,17 @@ body {
 /* Ô nhập tìm kiếm */
 .search-input {
     flex: 1; 
-    padding: 16px 15px;
+    padding: 1vw 1vw;
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 /* Nút tìm kiếm */
 .search-button {
     border: none;
     background-color: #f1ece2;
-    padding: 10px 10px;
+    padding: 0.35vw 0.35vw ;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -63,10 +64,11 @@ body {
 }
 
 .search-icon {
-    width: 30px; 
-    height: 30px;
+    width: 2.5vw; 
+    height: 2.5vw;
     transition: filter 0.3s ease;
 }
+
 .search-icon:hover {
     transform: scale(1.2);
 }
@@ -77,14 +79,14 @@ body {
     display: flex;
     justify-content:right;
     padding: 0;
-    gap: 20px;
+    gap: 2vw;
 }
 
 /* Định dạng vùng chứa biểu tượng và chữ */
 .icon-container {
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 3vw;
+    height: 3vw;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -95,15 +97,18 @@ body {
 .icon {
     position:absolute;
     left: 0;
-    width: 60px;
-    height: 60px;
+    width: 3vw;
+    height: 3vw;
     margin: 0;
     display:flex;
     align-items: center;
     justify-content:center;
     transition: transform 0.3s ease-in-out; 
 }
-
+.icon img {
+width: 2.5vw;
+height: 2.5vw;
+}
 /* Định dạng chữ trượt ngang */
 .text {
     position:absolute;
@@ -111,7 +116,7 @@ body {
     opacity: 0;                    
     color: #f1ece2;              
     transition: opacity 0.3s ease-in-out;
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 
 /* Khi di chuột vào container của biểu tượng */
@@ -127,7 +132,8 @@ body {
 /* Phần dưới với menu điều hướng */
 .header-nav {
     background-color: #9ea762; 
-    padding: 10px 0;
+    padding: 0.5vw;
+    width:100%;
 }
 
     .header-nav ul {
@@ -137,7 +143,8 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 60px;
+        gap: 4vw;
+        text-align: center;
     }
 
     .header-nav li {
@@ -148,9 +155,9 @@ body {
         color: #f1ece2;
         text-decoration: none;
         font-weight: bold;
-        padding: 10px;
+        padding: 1vw;
         text-transform: uppercase;
-        font-size: 22px;
+        font-size: 1.4vw;
     }
 
         .header-nav a:hover {

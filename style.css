@@ -79,14 +79,14 @@ body {
     display: flex;
     justify-content:right;
     padding: 0;
-    gap: 1vw;
+    gap: 2vw;
 }
 
 /* Định dạng vùng chứa biểu tượng và chữ */
 .icon-container {
     position: relative;
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -97,15 +97,18 @@ body {
 .icon {
     position:absolute;
     left: 0;
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
     margin: 0;
     display:flex;
     align-items: center;
     justify-content:center;
     transition: transform 0.3s ease-in-out; 
 }
-
+.icon img {
+width: 2.5vw;
+height: 2.5vw;
+}
 /* Định dạng chữ trượt ngang */
 .text {
     position:absolute;
