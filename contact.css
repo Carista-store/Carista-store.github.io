@@ -27,7 +27,6 @@ body {
 .search-bar {
     display: flex;
     align-items:center;
-    margin-right: 320px;
     width: 35%;
     position: relative;
 }
@@ -76,7 +75,6 @@ body {
     align-items: center;
     justify-content:center;
     overflow: hidden; 
-    margin-right: 10px;
 }
 
 /* Định dạng các biểu tượng */
@@ -157,7 +155,7 @@ body {
 
 /* Container của form */
 .contact-form {
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 30px;
     font-family: sans-serif;
@@ -264,7 +262,6 @@ footer {
 
 .footer-column {
     padding: 0 10px; 
-    margin-left: 10px;
 }
 
 .footer-column h3 {

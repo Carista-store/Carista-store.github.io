@@ -27,7 +27,6 @@ body {
 .search-bar {
     display: flex;
     align-items:center;
-    margin-right: 320px;
     width: 35%;
     position: relative;
 }
@@ -76,7 +75,6 @@ body {
     align-items: center;
     justify-content:center;
     overflow: hidden; 
-    margin-right: 10px;
 }
 
 /* Định dạng các biểu tượng */
@@ -232,7 +230,6 @@ h1 {
     text-align:center;
     font-family: sans-serif; 
     width: 40%;
-    margin-left: 460px;
     font-size: 1.4em; 
     line-height: 1.6; 
     color:#8a5d3d; 
@@ -289,7 +286,6 @@ h1 {
             justify-content: space-between;
             width: 80%;
             padding: 20px;
-            margin-left: 120px;
 }
 
 .title {
@@ -335,7 +331,6 @@ footer {
 
 .footer-column {
     padding: 0 10px; 
-    margin-left: 10px;
 }
 
 .footer-column h3 {
