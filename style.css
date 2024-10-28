@@ -96,8 +96,8 @@ body {
 .icon {
     position:absolute;
     left: 0;
-    width: 4.5vw;
-    height: 4.5vw;
+    width: 4vw;
+    height: 4vw;
     margin: 0;
     display:flex;
     align-items: center;
@@ -351,33 +351,31 @@ hr {
 }
 footer {
     display: flex;
-    justify-content: space-between;
-    padding: 1vw;
+    justify-content:center;
+    padding: 1vw 1vw;
     background-color: #b5c66c;
     color:#5a3e29;
     border-top: 2px solid #526707;
 }
 
 .footer-column {
-    padding: 0 1vw; 
+    padding: 0 3vw; 
 }
 
 .footer-column h3 {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     font-weight: bold;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
 }
 
 .footer-column p {
-    margin: 0.75vw 0;
-    font-size: 1.2vw;
-    flex-wrap: wrap;
+    margin: 0.5vw 0;
+    font-size: 1.1vw;
 }
 .social-icons, .payment-icons {
     display: flex;
     gap: 1.5vw; 
     align-items: center;
+    margin: 1vw 0;
 }
 .footer-column .social-icons img,
 .footer-column .payment-icons img {
