@@ -7,6 +7,7 @@
 body {
     background-color: #f1ece2;
     overflow-x: hidden;
+    height: auto;
 }
 /* Tổng quát cho header */
 .header-container {
@@ -165,98 +166,98 @@ height: 2.5vw;
         }
 
     .container {
-            text-indent: 10px;
             display: flex;
             align-items: center; 
-            justify-items: center;
-            margin: 0 20px;
-            gap: 10px;
+            justify-items:center;
+            margin: 4vw 0 0 1.5vw;
+            gap: 1.5vw;
         }   
     .image {
-            width: 50px; 
-            height: 50px;
+            width: 3.5vw; 
+            height: 3.5vw;
         }
     .title {
         font-family: serif; 
         text-align:left;
         color: #5a3e29; 
-        font-size: 3.2em;
+        font-size: 3.2vw;
         font-weight: bold;
-        margin-top: 0.7em;
     }
     hr {
         width: 30%;
-        height: 2px;
+        height: 0.2vw;
         background-color: #526707; 
         border: none;
-        margin-top: 10px;
+        margin-top: 0.5vw;
     }
     
     .detail {
-        text-indent: 45px;
+        text-indent: 3.5vw;
         text-align:justify;
         align-content: center;
         font-family: sans-serif; 
-        font-size: 1.4em; 
+        font-size: 1.5vw; 
         line-height: 1.6; 
         color: #5a3e29; 
         flex-wrap: wrap;
-        margin: 10px 25px 20px 20px;
+        margin: 1vw 1.5vw;
     }
     .content {
     max-width: 100%;
     display: flex;
     align-items:center;
     justify-content:center;
-    gap: 20px;
+    gap: 2vw;
     padding: 0; 
-    margin: 0 25px;
+    margin: 0 2vw;
     }
     
     .logoimg img {
-    width: 300px; 
+    width: 25vw; 
     height: auto;
     }
     .textt {
         text-align:justify;
         font-family: sans-serif; 
         flex: 1;
-        font-size: 1.4em; 
+        font-size: 1.5vw; 
         line-height: 2; 
         color: #5a3e29; 
         flex-wrap: wrap;
     }
     footer {
         display: flex;
-        justify-content: space-between;
-        padding: 10px;
+        justify-content:center;
+        padding: 1vw 1vw;
         background-color: #b5c66c;
         color:#5a3e29;
         border-top: 2px solid #526707;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: auto;
     }
     
     .footer-column {
-        padding: 0 10px; 
+        padding: 0 3vw; 
     }
     
     .footer-column h3 {
-        font-size: 1.3rem;
+        font-size: 1.2vw;
         font-weight: bold;
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
     
     .footer-column p {
-        margin: 5px 0;
-        font-size: 1rem;
+        margin: 0.5vw 0;
+        font-size: 1.1vw;
     }
     .social-icons, .payment-icons {
         display: flex;
-        gap: 15px; 
+        gap: 1.5vw; 
         align-items: center;
+        margin: 1vw 0;
     }
     .footer-column .social-icons img,
     .footer-column .payment-icons img {
-        width: 30px;
-        height: 30px;
+        width: 2vw;
+        height: 2vw;
     }
